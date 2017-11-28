@@ -1,0 +1,22 @@
+{
+    "name": "zk-axios",
+    "version": "1.0.2",
+    "description": "> 基于[axios](https://github.com/mzabriskie/axios)封装的ajax请求库",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "rimraf lib && babel src --out-dir lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zkboys/zk-axios.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zkboys/zk-axios/issues"
+    },
+    "homepage": "https://github.com/zkboys/zk-axios#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0"
+    }
+}
